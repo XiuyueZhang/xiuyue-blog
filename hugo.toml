@@ -1,0 +1,37 @@
+baseURL = "https://xiuyue.site/"
+languageCode = "en-us"
+title = "My Blog"
+theme = 'stack'
+unsafe = true
+
+[pagination]
+  pagerSize = 5
+
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML"]
+
+[params]
+  title = "Welcome to My Blog"
+  description = "I share interesting resources and CSS animation experiments"
+  sidebar_avatar = false
+  
+  [params.author]
+    name = "You"
+    email = "zxy0722nn@gmail.com"
+    
+  [params.footer]
+    since = 2025
+    customText = "My personal blog"
+    
+  [params.dateFormat]
+    published = "Jan 02, 2006"
+    lastUpdated = "Jan 02, 2006 15:04 MST"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = -100
