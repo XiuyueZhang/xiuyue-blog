@@ -1,4 +1,4 @@
-baseURL = "https://xiuyue.site/"
+baseURL = "https://blog.xiuyue.site/"
 languageCode = "en-us"
 title = "My Blog"
 theme = 'stack'
